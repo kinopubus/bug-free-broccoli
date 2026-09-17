@@ -3,6 +3,40 @@
     <channel>
         <title>Cinemac</title>
         <item>
+            <title>1.03</title>
+            <pubDate>Thu, 17 Sep 2026 20:02:36 +0200</pubDate>
+            <link>https://github.com/kinopubus/bug-free-broccoli/releases</link>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.03</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description xml:lang="en"><![CDATA[
+<h2>Cinemac 1.03 (build 12)</h2>
+<h3>Improvements</h3>
+<ul>
+<li>The update windows and the release notes they show now follow the language chosen in Cinemac, not the system language.</li>
+<li>The standard macOS menus and dialogs follow the same choice — switch the language in Settings and they change with the app from the next launch.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Installing an update no longer asks for your Mac login password. The session is now kept in Cinemac's own storage instead of the login keychain; an existing sign-in moves over by itself the first time you launch this version (macOS may ask for the password once more while it does).</li>
+</ul>
+            ]]></description>
+            <description xml:lang="ru"><![CDATA[
+<h2>Cinemac 1.03 (build 12)</h2>
+<h3>Улучшения</h3>
+<ul>
+<li>Окна обновления и список изменений в них теперь на том языке, который выбран в Cinemac, а не на языке системы.</li>
+<li>Стандартные меню и диалоги macOS следуют тому же выбору — смените язык в настройках, и со следующего запуска они сменятся вместе с приложением.</li>
+</ul>
+<h3>Исправления</h3>
+<ul>
+<li>Установка обновления больше не спрашивает пароль от Mac. Сессия теперь хранится в собственном хранилище Cinemac, а не в связке ключей входа; уже выполненный вход переносится сам при первом запуске этой версии (macOS может спросить пароль последний раз именно в этот момент).</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.03-b12/cm_v1.03_b12.dmg" length="65530319" type="application/octet-stream" sparkle:edSignature="hWYSHomCTwLMjy+mzMwdMYZSMsU2HxNTdN8qB6gWKe9+O7r3tb3swQBtHh8d9T/7kenfEgRtJHc6arwTGX03Cg=="/>
+        </item>
+        <item>
             <title>1.02</title>
             <pubDate>Thu, 17 Sep 2026 19:30:37 +0200</pubDate>
             <link>https://github.com/kinopubus/bug-free-broccoli/releases</link>
@@ -20,7 +54,7 @@
 <li>Posters in a grid stay level: every card reserves the same caption height, so a title that wraps no longer pushes its poster up. Each title keeps two lines; a title without a translation may use all four.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.02-b11/cm_v1.02_b11.dmg" length="65512131" type="application/octet-stream" sparkle:edSignature="eluUXY50KfJRhG0YL6GmUCuEQJkCEFBDsyCj1lZPmfPFU9ie/dFEZ7pjAh1FAEvM6f3LiO59AvzYNW8zyTvOBQ=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.03-b12/cm_v1.02_b11.dmg" length="65512131" type="application/octet-stream" sparkle:edSignature="eluUXY50KfJRhG0YL6GmUCuEQJkCEFBDsyCj1lZPmfPFU9ie/dFEZ7pjAh1FAEvM6f3LiO59AvzYNW8zyTvOBQ=="/>
         </item>
         <item>
             <title>1.01</title>
@@ -56,7 +90,7 @@
 <li>Proxy and DNS bypass stay mutually exclusive even while the Network pane is not on screen.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.02-b11/cm_v1.01_b10.dmg" length="65511235" type="application/octet-stream" sparkle:edSignature="VuVZl9m65Q/o/tVIUbFDn2SaWENdgef6j8DrsE39HZfjZLyG9HSr9ylytqrIUrmt7QU5c3stAQvCOwhbGyvXBg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.03-b12/cm_v1.01_b10.dmg" length="65511235" type="application/octet-stream" sparkle:edSignature="VuVZl9m65Q/o/tVIUbFDn2SaWENdgef6j8DrsE39HZfjZLyG9HSr9ylytqrIUrmt7QU5c3stAQvCOwhbGyvXBg=="/>
         </item>
     </channel>
 </rss>
