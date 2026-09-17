@@ -3,6 +3,40 @@
     <channel>
         <title>Cinemac</title>
         <item>
+            <title>1.04</title>
+            <pubDate>Thu, 17 Sep 2026 20:39:35 +0200</pubDate>
+            <link>https://github.com/kinopubus/bug-free-broccoli/releases</link>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.04</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description xml:lang="en"><![CDATA[
+<h2>Cinemac 1.04 (build 13)</h2>
+<h3>Improvements</h3>
+<ul>
+<li>The Cinemac menu lists «Settings…» once, not twice.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Cinemac starts on other Macs again. The previous build could quit the moment it was opened, complaining about a missing library — the app was not allowed to load a component of its own. Anyone who saw that can simply install this version over it.</li>
+<li>The session survives a restart. Cinemac no longer asks you to authorize the device at every launch, and it never asks for your Mac login password: what an older version left in the keychain is taken over quietly at first launch, and everything is kept in the app's own storage from then on.</li>
+</ul>
+            ]]></description>
+            <description xml:lang="ru"><![CDATA[
+<h2>Cinemac 1.04 (build 13)</h2>
+<h3>Улучшения</h3>
+<ul>
+<li>В меню «Cinemac» пункт «Настройки…» теперь один, а не два.</li>
+</ul>
+<h3>Исправления</h3>
+<ul>
+<li>Cinemac снова запускается на других Mac. Предыдущая сборка могла закрываться сразу при открытии с жалобой на недостающую библиотеку — приложению не давали загрузить его собственный компонент. Если вы это видели, просто установите эту версию поверх.</li>
+<li>Сессия переживает перезапуск. Cinemac больше не просит авторизовать устройство при каждом запуске и никогда не спрашивает пароль от Mac: то, что осталось от старой версии в связке ключей, подхватывается молча при первом запуске, а дальше всё хранится в собственном хранилище приложения.</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.04-b13/cm_v1.04_b13.dmg" length="65529758" type="application/octet-stream" sparkle:edSignature="qod02epCYEvZTbjN2hFfaZYxURXISUoHDYjWju5hvt2oP2ER+DXFxHLR5jHbtx23gwAhHlh8AKXB5gEuxPdrAw=="/>
+        </item>
+        <item>
             <title>1.03</title>
             <pubDate>Thu, 17 Sep 2026 20:02:36 +0200</pubDate>
             <link>https://github.com/kinopubus/bug-free-broccoli/releases</link>
@@ -34,7 +68,7 @@
 <li>Установка обновления больше не спрашивает пароль от Mac. Сессия теперь хранится в собственном хранилище Cinemac, а не в связке ключей входа; уже выполненный вход переносится сам при первом запуске этой версии (macOS может спросить пароль последний раз именно в этот момент).</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.03-b12/cm_v1.03_b12.dmg" length="65530319" type="application/octet-stream" sparkle:edSignature="hWYSHomCTwLMjy+mzMwdMYZSMsU2HxNTdN8qB6gWKe9+O7r3tb3swQBtHh8d9T/7kenfEgRtJHc6arwTGX03Cg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.04-b13/cm_v1.03_b12.dmg" length="65530319" type="application/octet-stream" sparkle:edSignature="hWYSHomCTwLMjy+mzMwdMYZSMsU2HxNTdN8qB6gWKe9+O7r3tb3swQBtHh8d9T/7kenfEgRtJHc6arwTGX03Cg=="/>
         </item>
         <item>
             <title>1.02</title>
@@ -54,7 +88,7 @@
 <li>Posters in a grid stay level: every card reserves the same caption height, so a title that wraps no longer pushes its poster up. Each title keeps two lines; a title without a translation may use all four.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.03-b12/cm_v1.02_b11.dmg" length="65512131" type="application/octet-stream" sparkle:edSignature="eluUXY50KfJRhG0YL6GmUCuEQJkCEFBDsyCj1lZPmfPFU9ie/dFEZ7pjAh1FAEvM6f3LiO59AvzYNW8zyTvOBQ=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.04-b13/cm_v1.02_b11.dmg" length="65512131" type="application/octet-stream" sparkle:edSignature="eluUXY50KfJRhG0YL6GmUCuEQJkCEFBDsyCj1lZPmfPFU9ie/dFEZ7pjAh1FAEvM6f3LiO59AvzYNW8zyTvOBQ=="/>
         </item>
         <item>
             <title>1.01</title>
@@ -90,7 +124,7 @@
 <li>Proxy and DNS bypass stay mutually exclusive even while the Network pane is not on screen.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.03-b12/cm_v1.01_b10.dmg" length="65511235" type="application/octet-stream" sparkle:edSignature="VuVZl9m65Q/o/tVIUbFDn2SaWENdgef6j8DrsE39HZfjZLyG9HSr9ylytqrIUrmt7QU5c3stAQvCOwhbGyvXBg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.04-b13/cm_v1.01_b10.dmg" length="65511235" type="application/octet-stream" sparkle:edSignature="VuVZl9m65Q/o/tVIUbFDn2SaWENdgef6j8DrsE39HZfjZLyG9HSr9ylytqrIUrmt7QU5c3stAQvCOwhbGyvXBg=="/>
         </item>
     </channel>
 </rss>
