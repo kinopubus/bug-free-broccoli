@@ -3,6 +3,26 @@
     <channel>
         <title>Cinemac</title>
         <item>
+            <title>1.02</title>
+            <pubDate>Thu, 17 Sep 2026 19:30:37 +0200</pubDate>
+            <link>https://github.com/kinopubus/bug-free-broccoli/releases</link>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.02</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>Cinemac 1.02 (build 11)</h2>
+<h3>Исправления</h3>
+<ul>
+<li>Постеры в сетке выровнены по одной линии: каждая карточка резервирует одинаковую высоту под подпись, и длинное название больше не сдвигает постер вверх. На каждое название отводится две строки; название без перевода может занять все четыре.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Posters in a grid stay level: every card reserves the same caption height, so a title that wraps no longer pushes its poster up. Each title keeps two lines; a title without a translation may use all four.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.02-b11/cm_v1.02_b11.dmg" length="65512131" type="application/octet-stream" sparkle:edSignature="eluUXY50KfJRhG0YL6GmUCuEQJkCEFBDsyCj1lZPmfPFU9ie/dFEZ7pjAh1FAEvM6f3LiO59AvzYNW8zyTvOBQ=="/>
+        </item>
+        <item>
             <title>1.01</title>
             <pubDate>Thu, 17 Sep 2026 19:18:08 +0200</pubDate>
             <link>https://github.com/kinopubus/bug-free-broccoli/releases</link>
@@ -36,7 +56,7 @@
 <li>Proxy and DNS bypass stay mutually exclusive even while the Network pane is not on screen.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.01-b10/cm_v1.01_b10.dmg" length="65511235" type="application/octet-stream" sparkle:edSignature="VuVZl9m65Q/o/tVIUbFDn2SaWENdgef6j8DrsE39HZfjZLyG9HSr9ylytqrIUrmt7QU5c3stAQvCOwhbGyvXBg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.02-b11/cm_v1.01_b10.dmg" length="65511235" type="application/octet-stream" sparkle:edSignature="VuVZl9m65Q/o/tVIUbFDn2SaWENdgef6j8DrsE39HZfjZLyG9HSr9ylytqrIUrmt7QU5c3stAQvCOwhbGyvXBg=="/>
         </item>
     </channel>
 </rss>
