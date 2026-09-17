@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Cinemac</title>
+        <item>
+            <title>1.01</title>
+            <pubDate>Thu, 17 Sep 2026 19:18:08 +0200</pubDate>
+            <link>https://github.com/kinopubus/bug-free-broccoli/releases</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.01</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>Cinemac 1.01 (build 10)</h2>
+<h3>Новое</h3>
+<ul>
+<li>Обновления внутри приложения: Cinemac проверяет, не вышла ли новая сборка, вскоре после запуска и раз в сутки, и предлагает её установить. «Проверить обновления…» в меню приложения и в Настройках → О программе запускает проверку вручную; автоматическую проверку можно отключить там же.</li>
+<li>Настройки стали боковой панелью с разделами — Основные, Аккаунт, Воспроизведение, Загрузки, Сеть, Контент, Интеграции, О программе — и полем поиска, которое находит любую настройку по названию.</li>
+<li>Тест скорости: Настройки → Сеть → «Проверить скорость соединения…» (есть и в меню «Переход») показывает спидометр с выбором региона, пиковую и среднюю скорость и вердикт, какое качество — SD, HD, Full HD или 4K — потянет ваше соединение.</li>
+</ul>
+<h3>Улучшения</h3>
+<ul>
+<li>В Настройках → Сеть показывается нейтральный статус основного и резервного сервера. Адреса серверов больше нигде в приложении не отображаются — ни в строках проверки соединения, ни в журнале DNS.</li>
+<li>Экраны входа больше не называют сервис: войдите в свой аккаунт, затем авторизуйте этот Mac в разделе «Мои устройства», введя показанный код.</li>
+<li>Прокси и обход DNS остаются взаимоисключающими, даже когда раздел «Сеть» не открыт.</li>
+</ul>
+<h3>New</h3>
+<ul>
+<li>In-app updates: the app checks for a new build shortly after launch and once a day, and offers to install it. "Check for Updates…" in the app menu and in Settings → About runs the check on demand; the automatic check can be turned off in About.</li>
+<li>Settings is now a sidebar with panes — General, Account, Playback, Downloads, Network, Content, Integrations, About — and a search field that finds any setting by name.</li>
+<li>Connection speed test: Settings → Network → "Test connection speed…" (also in the Go menu) shows a gauge with a region choice, peak and average speed, and a verdict on which quality — SD, HD, Full HD or 4K — your link can carry.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>Settings → Network shows a neutral primary / backup server status. No server address appears anywhere in the app any more, including the connection-test rows and the DNS log.</li>
+<li>The sign-in screens no longer name the service: sign in to your account, then authorize this Mac in "My Devices" with the code shown.</li>
+<li>Proxy and DNS bypass stay mutually exclusive even while the Network pane is not on screen.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.01-b10/cm_v1.01_b10.dmg" length="65511235" type="application/octet-stream" sparkle:edSignature="VuVZl9m65Q/o/tVIUbFDn2SaWENdgef6j8DrsE39HZfjZLyG9HSr9ylytqrIUrmt7QU5c3stAQvCOwhbGyvXBg=="/>
+        </item>
+    </channel>
+</rss>
