@@ -3,6 +3,66 @@
     <channel>
         <title>Cinemac</title>
         <item>
+            <title>1.08</title>
+            <pubDate>Sun, 20 Sep 2026 11:05:04 +0200</pubDate>
+            <link>https://github.com/kinopubus/bug-free-broccoli/releases</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.08</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description xml:lang="en"><![CDATA[
+<h2>Cinemac 1.08 (build 18)</h2>
+<h3>New</h3>
+<ul>
+<li>Trackpad gestures, on by default in Settings → General → Interface. Swipe right anywhere to go back, scroll over the player to seek and change the volume, pinch the player to switch between fill and fit, pinch a poster grid to make the cards smaller or larger, and swipe the Home hero to page through it. Swiping back follows System Settings → Trackpad → Swipe between pages, and nothing a gesture does interrupts scrolling underneath.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>The slideshow on the Home page no longer advances on its own when «Reduce Motion» is turned on in System Settings.</li>
+<li>Changing the download folder is safe even when an earlier folder is unavailable. Every folder you have used is remembered until the last file has left it, so downloads stay playable and the move is retried at each launch.</li>
+<li>A download now checks for free space before it starts and again on every resume, and says how much is needed and how much is left. Both the download folder's disk and the startup disk, where the temporary files live, are taken into account.</li>
+<li>Your position in a streamed movie or episode is now saved every 30 seconds, and also when playback fails. Quitting or losing power mid-episode costs you seconds instead of the whole session.</li>
+<li>Watch progress recorded while offline is delivered more reliably: a server outage no longer counts against a record's attempts, and retries now back off from a minute to six hours instead of giving up.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>An unplugged drive is no longer mistaken for a deleted file. Playing or repairing a download whose folder is away now asks you to reconnect the drive and leaves the download alone, instead of marking it failed.</li>
+<li>Deleting a download always finishes. If the app quits or the drive is away mid-delete, the leftover video and subtitle files are cleaned up at the next launch instead of staying on disk forever.</li>
+<li>Pausing, cancelling and restarting a download in quick succession no longer leaves it stuck: a job that is unwinding can no longer interfere with the one that replaced it.</li>
+<li>Retrying a failed search repeats the request that failed instead of skipping to the next page, and changing a catalog filter while a page is loading no longer mixes the old filter's results into the new grid.</li>
+<li>Subtitle search is tidier: results from a search you have moved on from are discarded, a remembered subtitle choice belongs to its own title, and an oversized subtitle file is refused with a message instead of stalling the player.</li>
+<li>Signing out clears everything the account owned. A request that was still in flight can no longer drop the previous account's content, watch state or connection into the next session.</li>
+<li>When the downloads library cannot be opened, new downloads are now refused with an explanation instead of being queued and lost at quit; existing files stay playable.</li>
+</ul>
+            ]]></description>
+            <description xml:lang="ru"><![CDATA[
+<h2>Cinemac 1.08 (build 18)</h2>
+<h3>Новое</h3>
+<ul>
+<li>Жесты трекпада, включены по умолчанию в Настройках → Основные → Интерфейс. Свайп вправо — назад, прокрутка над плеером — перемотка и громкость, щипок в плеере переключает «по размеру» и «во весь кадр», щипок на сетке постеров меняет размер карточек, а свайп по баннеру на главной листает его. Свайп назад учитывает Системные настройки → Трекпад → Переход между страницами и не мешает обычной прокрутке.</li>
+</ul>
+<h3>Улучшения</h3>
+<ul>
+<li>Слайд-шоу на главной больше не листается само, если в системных настройках включено «Уменьшение движения».</li>
+<li>Смена папки загрузок безопасна, даже если прежняя папка недоступна. Каждая использованная папка запоминается, пока из неё не уйдёт последний файл: загрузки остаются доступными, а перенос повторяется при каждом запуске.</li>
+<li>Перед началом загрузки и при каждом возобновлении проверяется свободное место, и в сообщении указано, сколько нужно и сколько осталось. Учитываются оба диска — тот, где лежит папка загрузок, и системный, где хранятся временные файлы.</li>
+<li>Позиция в фильме или серии сохраняется каждые 30 секунд, а также при сбое воспроизведения. Внезапное завершение работы теперь стоит нескольких секунд просмотра, а не всего сеанса.</li>
+<li>Прогресс просмотра, записанный офлайн, доставляется надёжнее: сбой на стороне сервера больше не расходует попытки записи, а повторы растягиваются от минуты до шести часов вместо отказа.</li>
+</ul>
+<h3>Исправления</h3>
+<ul>
+<li>Отключённый диск больше не принимается за удалённый файл. Если папка загрузок недоступна, воспроизведение и восстановление просят подключить диск и не трогают саму загрузку, а не помечают её как неудачную.</li>
+<li>Удаление загрузки всегда доводится до конца. Если приложение закрылось или диск был отключён в этот момент, оставшиеся видео и субтитры удаляются при следующем запуске, а не остаются на диске навсегда.</li>
+<li>Быстрая пауза, отмена и перезапуск загрузки больше не оставляют её в подвешенном состоянии: завершающаяся задача больше не мешает той, что пришла ей на смену.</li>
+<li>Повтор неудавшегося поиска отправляет тот же запрос, а не переходит на следующую страницу, а смена фильтра каталога во время загрузки больше не подмешивает в сетку результаты прежнего фильтра.</li>
+<li>Поиск субтитров стал аккуратнее: результаты уже неактуального запроса отбрасываются, запомненный выбор дорожки относится именно к своему фильму, а слишком большой файл субтитров отклоняется с сообщением, а не подвешивает плеер.</li>
+<li>Выход из аккаунта очищает все его данные. Запрос, отправленный до выхода, больше не может принести контент, отметки просмотра или подключение прежнего аккаунта в следующий сеанс.</li>
+<li>Если библиотеку загрузок не удалось открыть, новые загрузки отклоняются с пояснением, а не встают в очередь, чтобы пропасть при выходе; уже скачанные файлы остаются доступными.</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.08_b18.dmg" length="65663684" type="application/octet-stream" sparkle:edSignature="/kFySsdQEIFB1kqS56JNwWwQ4qvgW8RnqAmLwf1NYvQVmM13Lr35+HX2PwYoRbSc/MxtZU0YxdN8hCAgORqkDQ=="/>
+        </item>
+        <item>
             <title>1.07</title>
             <pubDate>Sat, 19 Sep 2026 07:49:54 +0200</pubDate>
             <link>https://github.com/kinopubus/bug-free-broccoli/releases</link>
@@ -26,7 +86,7 @@
 <li>Отметка «просмотрено» теперь отражает то, что действительно сохранил сервер. Раньше ответ на эту запись не проверялся: отклонённая запись показывала сообщение об успехе, а отметка исчезала при следующей загрузке. Теперь неудачная запись честно сообщает об ошибке.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.07-b17/cm_v1.07_b17.dmg" length="65570532" type="application/octet-stream" sparkle:edSignature="/xLYWw++13HkC6+MfWMF8Sy+TGhdL1vmc3CRjn/YwljF+nV1XUFvBYuzl9WgcqZ6Y3csm0+BlAxmcrRBvDw8Dw=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.07_b17.dmg" length="65570532" type="application/octet-stream" sparkle:edSignature="/xLYWw++13HkC6+MfWMF8Sy+TGhdL1vmc3CRjn/YwljF+nV1XUFvBYuzl9WgcqZ6Y3csm0+BlAxmcrRBvDw8Dw=="/>
         </item>
         <item>
             <title>1.06</title>
@@ -58,7 +118,7 @@
 <li>Уголок «просмотрено» обновляется сразу и везде. Отметка из меню, со страницы фильма или досмотренный в плеере фильм меняет уголок на всех карточках на экране в тот же момент, а не после устаревания кэша списков.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.07-b17/cm_v1.06_b16.dmg" length="65554421" type="application/octet-stream" sparkle:edSignature="mnoInHRGCkhWt/N/smxUIpIQpl2xxrANY0bYApVXkGM7l9rfiqgXE7EW2WWhMLVfCYoiYA9lwDC5TbLPt8QNCQ=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.06_b16.dmg" length="65554421" type="application/octet-stream" sparkle:edSignature="mnoInHRGCkhWt/N/smxUIpIQpl2xxrANY0bYApVXkGM7l9rfiqgXE7EW2WWhMLVfCYoiYA9lwDC5TbLPt8QNCQ=="/>
         </item>
         <item>
             <title>1.05</title>
@@ -100,7 +160,7 @@
 <li>При запуске больше не мелькает ошибка «Не удалось загрузить». Каждый холодный старт на секунду показывал экран ошибки с кнопкой «Повторить», прежде чем появлялся каталог: первый запрос отменялся во время настройки окна. Теперь запуск проходит без сбоев.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.07-b17/cm_v1.05_b15.dmg" length="65568163" type="application/octet-stream" sparkle:edSignature="fn/cJUONjZg8pX35hSZhn+kYliQQ8D9WZBjkjm8NkaoRjctFpoOZzxeyHrI1gWPBIXWG7vQrKA0g30zOwM3KCg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.05_b15.dmg" length="65568163" type="application/octet-stream" sparkle:edSignature="fn/cJUONjZg8pX35hSZhn+kYliQQ8D9WZBjkjm8NkaoRjctFpoOZzxeyHrI1gWPBIXWG7vQrKA0g30zOwM3KCg=="/>
         </item>
         <item>
             <title>1.04</title>
@@ -134,7 +194,7 @@
 <li>Сессия переживает перезапуск. Cinemac больше не просит авторизовать устройство при каждом запуске и никогда не спрашивает пароль от Mac: то, что осталось от старой версии в связке ключей, подхватывается молча при первом запуске, а дальше всё хранится в собственном хранилище приложения.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.07-b17/cm_v1.04_b13.dmg" length="65529758" type="application/octet-stream" sparkle:edSignature="qod02epCYEvZTbjN2hFfaZYxURXISUoHDYjWju5hvt2oP2ER+DXFxHLR5jHbtx23gwAhHlh8AKXB5gEuxPdrAw=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.04_b13.dmg" length="65529758" type="application/octet-stream" sparkle:edSignature="qod02epCYEvZTbjN2hFfaZYxURXISUoHDYjWju5hvt2oP2ER+DXFxHLR5jHbtx23gwAhHlh8AKXB5gEuxPdrAw=="/>
         </item>
         <item>
             <title>1.03</title>
@@ -168,7 +228,7 @@
 <li>Установка обновления больше не спрашивает пароль от Mac. Сессия теперь хранится в собственном хранилище Cinemac, а не в связке ключей входа; уже выполненный вход переносится сам при первом запуске этой версии (macOS может спросить пароль последний раз именно в этот момент).</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.07-b17/cm_v1.03_b12.dmg" length="65530319" type="application/octet-stream" sparkle:edSignature="hWYSHomCTwLMjy+mzMwdMYZSMsU2HxNTdN8qB6gWKe9+O7r3tb3swQBtHh8d9T/7kenfEgRtJHc6arwTGX03Cg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.03_b12.dmg" length="65530319" type="application/octet-stream" sparkle:edSignature="hWYSHomCTwLMjy+mzMwdMYZSMsU2HxNTdN8qB6gWKe9+O7r3tb3swQBtHh8d9T/7kenfEgRtJHc6arwTGX03Cg=="/>
         </item>
         <item>
             <title>1.02</title>
@@ -188,7 +248,7 @@
 <li>Posters in a grid stay level: every card reserves the same caption height, so a title that wraps no longer pushes its poster up. Each title keeps two lines; a title without a translation may use all four.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.07-b17/cm_v1.02_b11.dmg" length="65512131" type="application/octet-stream" sparkle:edSignature="eluUXY50KfJRhG0YL6GmUCuEQJkCEFBDsyCj1lZPmfPFU9ie/dFEZ7pjAh1FAEvM6f3LiO59AvzYNW8zyTvOBQ=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.02_b11.dmg" length="65512131" type="application/octet-stream" sparkle:edSignature="eluUXY50KfJRhG0YL6GmUCuEQJkCEFBDsyCj1lZPmfPFU9ie/dFEZ7pjAh1FAEvM6f3LiO59AvzYNW8zyTvOBQ=="/>
         </item>
         <item>
             <title>1.01</title>
@@ -224,7 +284,7 @@
 <li>Proxy and DNS bypass stay mutually exclusive even while the Network pane is not on screen.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.07-b17/cm_v1.01_b10.dmg" length="65511235" type="application/octet-stream" sparkle:edSignature="VuVZl9m65Q/o/tVIUbFDn2SaWENdgef6j8DrsE39HZfjZLyG9HSr9ylytqrIUrmt7QU5c3stAQvCOwhbGyvXBg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.01_b10.dmg" length="65511235" type="application/octet-stream" sparkle:edSignature="VuVZl9m65Q/o/tVIUbFDn2SaWENdgef6j8DrsE39HZfjZLyG9HSr9ylytqrIUrmt7QU5c3stAQvCOwhbGyvXBg=="/>
         </item>
     </channel>
 </rss>
