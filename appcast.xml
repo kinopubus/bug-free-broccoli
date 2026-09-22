@@ -3,6 +3,48 @@
     <channel>
         <title>Cinemac</title>
         <item>
+            <title>1.09</title>
+            <pubDate>Tue, 22 Sep 2026 14:19:49 +0200</pubDate>
+            <link>https://github.com/kinopubus/bug-free-broccoli/releases</link>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>1.09</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description xml:lang="en"><![CDATA[
+<h2>Cinemac 1.09 (build 19)</h2>
+<h3>New</h3>
+<ul>
+<li>Choose the streaming server (Netherlands or Russia) right in Settings → Playback, next to the stream type.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>Stream type, server, 4K and HEVC are read back from kino.watch after sign-in and whenever Settings open, so they always show what the server will serve, even when changed on another device.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Fixed 4K, HEVC and stream type in Settings → Playback having no effect: they are now stored on kino.watch for this device, so the server actually offers the streams you chose.</li>
+<li>Device Management now shows the server and stream type lists and saves each change on its own; a save that fails puts the switch back and tells you.</li>
+</ul>
+            ]]></description>
+            <description xml:lang="ru"><![CDATA[
+<h2>Cinemac 1.09 (build 19)</h2>
+<h3>Новое</h3>
+<ul>
+<li>Сервер вещания (Нидерланды или Россия) теперь выбирается прямо в Настройках → Воспроизведение, рядом с типом потока.</li>
+</ul>
+<h3>Улучшения</h3>
+<ul>
+<li>Тип потока, сервер, 4K и HEVC подтягиваются с kino.watch после входа и при каждом открытии Настроек, поэтому всегда показывают то, что отдаёт сервер, даже если их поменяли на другом устройстве.</li>
+</ul>
+<h3>Исправления</h3>
+<ul>
+<li>Исправлено: переключатели 4K, HEVC и тип потока в Настройках → Воспроизведение ничего не меняли. Теперь они сохраняются на kino.watch для этого устройства, и сервер действительно отдаёт выбранные потоки.</li>
+<li>В управлении устройством снова видны списки серверов и типов потока, каждое изменение сохраняется отдельно; если сохранить не удалось, переключатель возвращается назад и об этом сообщается.</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.09-b19/cm_v1.09_b19.dmg" length="65677966" type="application/octet-stream" sparkle:edSignature="ls88inVJaUNwdrVAd3y8yR/gIfom55IwdWBDhQqIv6AHWAYHgXot7svT/FjeU0b5vAL20QJRNPjwagoUCJAPDQ=="/>
+        </item>
+        <item>
             <title>1.08</title>
             <pubDate>Sun, 20 Sep 2026 11:05:04 +0200</pubDate>
             <link>https://github.com/kinopubus/bug-free-broccoli/releases</link>
@@ -60,7 +102,7 @@
 <li>Если библиотеку загрузок не удалось открыть, новые загрузки отклоняются с пояснением, а не встают в очередь, чтобы пропасть при выходе; уже скачанные файлы остаются доступными.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.08_b18.dmg" length="65663684" type="application/octet-stream" sparkle:edSignature="/kFySsdQEIFB1kqS56JNwWwQ4qvgW8RnqAmLwf1NYvQVmM13Lr35+HX2PwYoRbSc/MxtZU0YxdN8hCAgORqkDQ=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.09-b19/cm_v1.08_b18.dmg" length="65663684" type="application/octet-stream" sparkle:edSignature="/kFySsdQEIFB1kqS56JNwWwQ4qvgW8RnqAmLwf1NYvQVmM13Lr35+HX2PwYoRbSc/MxtZU0YxdN8hCAgORqkDQ=="/>
         </item>
         <item>
             <title>1.07</title>
@@ -86,7 +128,7 @@
 <li>Отметка «просмотрено» теперь отражает то, что действительно сохранил сервер. Раньше ответ на эту запись не проверялся: отклонённая запись показывала сообщение об успехе, а отметка исчезала при следующей загрузке. Теперь неудачная запись честно сообщает об ошибке.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.07_b17.dmg" length="65570532" type="application/octet-stream" sparkle:edSignature="/xLYWw++13HkC6+MfWMF8Sy+TGhdL1vmc3CRjn/YwljF+nV1XUFvBYuzl9WgcqZ6Y3csm0+BlAxmcrRBvDw8Dw=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.09-b19/cm_v1.07_b17.dmg" length="65570532" type="application/octet-stream" sparkle:edSignature="/xLYWw++13HkC6+MfWMF8Sy+TGhdL1vmc3CRjn/YwljF+nV1XUFvBYuzl9WgcqZ6Y3csm0+BlAxmcrRBvDw8Dw=="/>
         </item>
         <item>
             <title>1.06</title>
@@ -118,7 +160,7 @@
 <li>Уголок «просмотрено» обновляется сразу и везде. Отметка из меню, со страницы фильма или досмотренный в плеере фильм меняет уголок на всех карточках на экране в тот же момент, а не после устаревания кэша списков.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.06_b16.dmg" length="65554421" type="application/octet-stream" sparkle:edSignature="mnoInHRGCkhWt/N/smxUIpIQpl2xxrANY0bYApVXkGM7l9rfiqgXE7EW2WWhMLVfCYoiYA9lwDC5TbLPt8QNCQ=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.09-b19/cm_v1.06_b16.dmg" length="65554421" type="application/octet-stream" sparkle:edSignature="mnoInHRGCkhWt/N/smxUIpIQpl2xxrANY0bYApVXkGM7l9rfiqgXE7EW2WWhMLVfCYoiYA9lwDC5TbLPt8QNCQ=="/>
         </item>
         <item>
             <title>1.05</title>
@@ -160,7 +202,7 @@
 <li>При запуске больше не мелькает ошибка «Не удалось загрузить». Каждый холодный старт на секунду показывал экран ошибки с кнопкой «Повторить», прежде чем появлялся каталог: первый запрос отменялся во время настройки окна. Теперь запуск проходит без сбоев.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.05_b15.dmg" length="65568163" type="application/octet-stream" sparkle:edSignature="fn/cJUONjZg8pX35hSZhn+kYliQQ8D9WZBjkjm8NkaoRjctFpoOZzxeyHrI1gWPBIXWG7vQrKA0g30zOwM3KCg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.09-b19/cm_v1.05_b15.dmg" length="65568163" type="application/octet-stream" sparkle:edSignature="fn/cJUONjZg8pX35hSZhn+kYliQQ8D9WZBjkjm8NkaoRjctFpoOZzxeyHrI1gWPBIXWG7vQrKA0g30zOwM3KCg=="/>
         </item>
         <item>
             <title>1.04</title>
@@ -194,7 +236,7 @@
 <li>Сессия переживает перезапуск. Cinemac больше не просит авторизовать устройство при каждом запуске и никогда не спрашивает пароль от Mac: то, что осталось от старой версии в связке ключей, подхватывается молча при первом запуске, а дальше всё хранится в собственном хранилище приложения.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.04_b13.dmg" length="65529758" type="application/octet-stream" sparkle:edSignature="qod02epCYEvZTbjN2hFfaZYxURXISUoHDYjWju5hvt2oP2ER+DXFxHLR5jHbtx23gwAhHlh8AKXB5gEuxPdrAw=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.09-b19/cm_v1.04_b13.dmg" length="65529758" type="application/octet-stream" sparkle:edSignature="qod02epCYEvZTbjN2hFfaZYxURXISUoHDYjWju5hvt2oP2ER+DXFxHLR5jHbtx23gwAhHlh8AKXB5gEuxPdrAw=="/>
         </item>
         <item>
             <title>1.03</title>
@@ -228,7 +270,7 @@
 <li>Установка обновления больше не спрашивает пароль от Mac. Сессия теперь хранится в собственном хранилище Cinemac, а не в связке ключей входа; уже выполненный вход переносится сам при первом запуске этой версии (macOS может спросить пароль последний раз именно в этот момент).</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.03_b12.dmg" length="65530319" type="application/octet-stream" sparkle:edSignature="hWYSHomCTwLMjy+mzMwdMYZSMsU2HxNTdN8qB6gWKe9+O7r3tb3swQBtHh8d9T/7kenfEgRtJHc6arwTGX03Cg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.09-b19/cm_v1.03_b12.dmg" length="65530319" type="application/octet-stream" sparkle:edSignature="hWYSHomCTwLMjy+mzMwdMYZSMsU2HxNTdN8qB6gWKe9+O7r3tb3swQBtHh8d9T/7kenfEgRtJHc6arwTGX03Cg=="/>
         </item>
         <item>
             <title>1.02</title>
@@ -248,7 +290,7 @@
 <li>Posters in a grid stay level: every card reserves the same caption height, so a title that wraps no longer pushes its poster up. Each title keeps two lines; a title without a translation may use all four.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.02_b11.dmg" length="65512131" type="application/octet-stream" sparkle:edSignature="eluUXY50KfJRhG0YL6GmUCuEQJkCEFBDsyCj1lZPmfPFU9ie/dFEZ7pjAh1FAEvM6f3LiO59AvzYNW8zyTvOBQ=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.09-b19/cm_v1.02_b11.dmg" length="65512131" type="application/octet-stream" sparkle:edSignature="eluUXY50KfJRhG0YL6GmUCuEQJkCEFBDsyCj1lZPmfPFU9ie/dFEZ7pjAh1FAEvM6f3LiO59AvzYNW8zyTvOBQ=="/>
         </item>
         <item>
             <title>1.01</title>
@@ -284,7 +326,7 @@
 <li>Proxy and DNS bypass stay mutually exclusive even while the Network pane is not on screen.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.08-b18/cm_v1.01_b10.dmg" length="65511235" type="application/octet-stream" sparkle:edSignature="VuVZl9m65Q/o/tVIUbFDn2SaWENdgef6j8DrsE39HZfjZLyG9HSr9ylytqrIUrmt7QU5c3stAQvCOwhbGyvXBg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.09-b19/cm_v1.01_b10.dmg" length="65511235" type="application/octet-stream" sparkle:edSignature="VuVZl9m65Q/o/tVIUbFDn2SaWENdgef6j8DrsE39HZfjZLyG9HSr9ylytqrIUrmt7QU5c3stAQvCOwhbGyvXBg=="/>
         </item>
     </channel>
 </rss>
