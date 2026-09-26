@@ -44,7 +44,7 @@
 <li>Поиск по идентификатору больше не зависает на неотвечающем сервере: запрос уходит на все серверы сразу, и побеждает самый быстрый ответ.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.14-b29/cm_v1.14_b29.dmg" length="67070745" type="application/octet-stream" sparkle:edSignature="zWxAcgstwtcdSJh4jt0k+vhjuOaMVNFEvS5JvdHUDFALAsJjtKiQg2nbFpnGm86XQ9wblSh79JVYRew1rx6UCA=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.14-b29/cm_v1.14_b29.dmg" length="71189469" type="application/octet-stream" sparkle:edSignature="28sk0J3dCGSWhCTw76j7yJ/GlfVcOp5EbToregH74gfpWcSsoTNuRHlj5bdwq0UVmX26CI6qWTxk7StBZaeIDg=="/>
         </item>
         <item>
             <title>1.13</title>
