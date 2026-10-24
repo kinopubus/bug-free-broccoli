@@ -3,6 +3,58 @@
     <channel>
         <title>Cinemac</title>
         <item>
+            <title>1.24</title>
+            <pubDate>Sat, 24 Oct 2026 15:58:54 +0200</pubDate>
+            <link>https://github.com/kinopubus/bug-free-broccoli/releases</link>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>1.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description xml:lang="en"><![CDATA[
+<h2>Cinemac 1.24 (build 65)</h2>
+<h3>New</h3>
+<ul>
+<li>The release calendar now knows more shows: when TMDB has no schedule for a series (no IMDb id, an unknown title, or episodes without a date), air dates are filled in from TVmaze and Simkl, so fewer series end up under «no schedule data».</li>
+<li>Download only what is missing: the episode download sheet has «Only missing» next to «Only unwatched» (on by default, also in Settings → Downloads). It skips episodes already downloaded, queued or paused in any quality; turn it off to download them again — the app asks first.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>Calendar dates stay trustworthy: every episode appears once, a date TMDB already gave is never replaced, and episodes numbered differently from Kinopub are left out rather than shown twice.</li>
+<li>Season downloads tidy up after themselves: a failed copy of an episode in another quality is removed once the new download is queued, and a batch where everything was already there now says so instead of doing nothing silently.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Fixed an episode whose download had failed looking stuck «downloading» on the series page: it now shows the download button again.</li>
+</ul>
+<h3>Other</h3>
+<ul>
+<li>The calendar's agenda credits its sources (TMDB, TVmaze, Simkl) with links, and an episode dated by Simkl offers «Open on Simkl» in its card and right-click menu.</li>
+</ul>
+            ]]></description>
+            <description xml:lang="ru"><![CDATA[
+<h2>Cinemac 1.24 (build 65)</h2>
+<h3>Новое</h3>
+<ul>
+<li>Календарь знает больше сериалов: если у TMDB нет расписания (у сериала нет IMDb, TMDB его не знает или у серий нет даты), даты выхода берутся из TVmaze и Simkl — сериалов «без данных о расписании» становится меньше.</li>
+<li>Загрузка только недостающего: в окне загрузки серий рядом с «Только непросмотренные» появилось «Только недостающие» (включено по умолчанию, есть и в Настройках → Загрузки). Оно пропускает серии, которые уже загружены, в очереди или на паузе в любом качестве; выключите его, чтобы скачать их ещё раз, — приложение сначала переспросит.</li>
+</ul>
+<h3>Улучшения</h3>
+<ul>
+<li>Даты в календаре остаются надёжными: каждая серия показывается один раз, дату от TMDB другие источники не меняют, а серии с нумерацией не как на Kinopub не попадают в календарь, вместо того чтобы появиться дважды.</li>
+<li>Загрузка сезона прибирает за собой: неудачная копия серии в другом качестве удаляется, как только новая загрузка встала в очередь, а если всё выбранное уже было скачано, приложение об этом сообщает, а не молчит.</li>
+</ul>
+<h3>Исправления</h3>
+<ul>
+<li>Исправлено: серия с неудавшейся загрузкой больше не «висит» на странице сериала как загружаемая — у неё снова есть кнопка загрузки.</li>
+</ul>
+<h3>Прочее</h3>
+<ul>
+<li>Под списком календаря указаны источники расписания (TMDB, TVmaze, Simkl) со ссылками, а у серии с датой от Simkl в карточке и контекстном меню есть «Открыть на Simkl».</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.24_b65.dmg" length="72581820" type="application/octet-stream" sparkle:edSignature="B1ANkyo/RaFHOuZGrI40Ge/YU8ccXqpovlk7noTATWGUExqtNGaEoASiq8oepW42ahg4kXpibWp/7bnqt3b7Cg=="/>
+        </item>
+        <item>
             <title>1.23</title>
             <pubDate>Tue, 20 Oct 2026 19:43:44 +0200</pubDate>
             <link>https://github.com/kinopubus/bug-free-broccoli/releases</link>
@@ -40,7 +92,7 @@
 <li>Исправлены устаревшие постеры: когда Kinopub обновляет обложку (например, к новому сезону), приложение теперь подхватывает новый постер в течение нескольких дней, а не хранит старый бесконечно, и увеличенный постер на странице совпадает с тем, что в шапке.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.23_b63.dmg" length="72476102" type="application/octet-stream" sparkle:edSignature="uDjzrp3QXWQAUGrgrXrNEgddwXnekMHSX4Ve1cdCkIQFiVuzjVH9yvKPiZw6WPTnwy3yLOB3p4eeQa8W7tCTAA=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.23_b63.dmg" length="72476102" type="application/octet-stream" sparkle:edSignature="uDjzrp3QXWQAUGrgrXrNEgddwXnekMHSX4Ve1cdCkIQFiVuzjVH9yvKPiZw6WPTnwy3yLOB3p4eeQa8W7tCTAA=="/>
         </item>
         <item>
             <title>1.22</title>
@@ -92,7 +144,7 @@
 <li>Контекстное меню карточки в «Продолжить просмотр» предлагает «Убрать из „Я смотрю“», а не «Добавить».</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.22_b61.dmg" length="72441560" type="application/octet-stream" sparkle:edSignature="a0Xk0YxHWRrF1akyayHkRQLAZIfqdpR+nDKAQSsNqFF3E1xcQmF1Hz7/LQvVqFsbvbCYkL7wSjEBXyIOIT2UCQ=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.22_b61.dmg" length="72441560" type="application/octet-stream" sparkle:edSignature="a0Xk0YxHWRrF1akyayHkRQLAZIfqdpR+nDKAQSsNqFF3E1xcQmF1Hz7/LQvVqFsbvbCYkL7wSjEBXyIOIT2UCQ=="/>
         </item>
         <item>
             <title>1.21</title>
@@ -140,7 +192,7 @@
 <li>Обновление главной страницы жестом «потянуть вниз» больше не оставляет зазор между верхней панелью и каруселью.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.21_b51.dmg" length="71414139" type="application/octet-stream" sparkle:edSignature="wvQoh4zqhpi0AsYleUdykhL3pJVbUf1EFhS5eKkbdDlBiDugThykSFgSh6/W/7fLkDnkdqnGm0Go9Prq3najBg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.21_b51.dmg" length="71414139" type="application/octet-stream" sparkle:edSignature="wvQoh4zqhpi0AsYleUdykhL3pJVbUf1EFhS5eKkbdDlBiDugThykSFgSh6/W/7fLkDnkdqnGm0Go9Prq3najBg=="/>
         </item>
         <item>
             <title>1.20</title>
@@ -172,7 +224,7 @@
 <li>Вы остаётесь в аккаунте: приложение больше не выходит из него, если обновление токена столкнулось с другой копией Cinemac, а сбой сервера или пропавшая связь во время продления сохраняют сессию, а не обрывают её. Сессия продлевается заранее и ещё раз после пробуждения Mac.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.20_b43.dmg" length="71307426" type="application/octet-stream" sparkle:edSignature="CiUObVZ85oaVDvuuwi7CQOubAXw4zrWXsAAOAA4I17fTP4GU+0dmkrA1C0h0hSwtLRI/dj4Hz5fCn48lAOL6Cg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.20_b43.dmg" length="71307426" type="application/octet-stream" sparkle:edSignature="CiUObVZ85oaVDvuuwi7CQOubAXw4zrWXsAAOAA4I17fTP4GU+0dmkrA1C0h0hSwtLRI/dj4Hz5fCn48lAOL6Cg=="/>
         </item>
         <item>
             <title>1.19</title>
@@ -212,7 +264,7 @@
 <li>Жест «назад» на трекпаде снова работает после того, как вы воспользовались полем поиска в верхней панели.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.19_b41.dmg" length="71287732" type="application/octet-stream" sparkle:edSignature="PSsJwyK4P+EQEvfO21nx8SUSaBGqPYG0FtNEtw+7Xv9zeaHxn2eDL0M7JB3gtY0zMAmoUoC3krEzpJX1az3lCA=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.19_b41.dmg" length="71287732" type="application/octet-stream" sparkle:edSignature="PSsJwyK4P+EQEvfO21nx8SUSaBGqPYG0FtNEtw+7Xv9zeaHxn2eDL0M7JB3gtY0zMAmoUoC3krEzpJX1az3lCA=="/>
         </item>
         <item>
             <title>1.18</title>
@@ -246,7 +298,7 @@
 <li>Скорость воспроизведения в окне статистики теперь сразу обновляется при смене скорости.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.18_b38.dmg" length="71280292" type="application/octet-stream" sparkle:edSignature="XLTurR0azE+ww0UKc46vhEaJ53C8fwBqHpFU8t+QxwWsiMNN2cB0lADA7uwu8XzsolgUbfRPEymhdrG+nYRlDw=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.18_b38.dmg" length="71280292" type="application/octet-stream" sparkle:edSignature="XLTurR0azE+ww0UKc46vhEaJ53C8fwBqHpFU8t+QxwWsiMNN2cB0lADA7uwu8XzsolgUbfRPEymhdrG+nYRlDw=="/>
         </item>
         <item>
             <title>1.17</title>
@@ -270,7 +322,7 @@
 <li>При передаче фильма с iPhone на Mac сохраняется выбранная звуковая дорожка: Mac начинает с той же озвучки, а при обратной передаче на телефон отдаёт её назад.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.17_b36.dmg" length="71258904" type="application/octet-stream" sparkle:edSignature="f1UJp4HkiEZHxTGJiAyC87BKlDLReMJWkiBQ3F6vD/GuoI/87L9/A4cNdRtfQ2fLxNLnfYEatO+OqclNmVQdBg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.17_b36.dmg" length="71258904" type="application/octet-stream" sparkle:edSignature="f1UJp4HkiEZHxTGJiAyC87BKlDLReMJWkiBQ3F6vD/GuoI/87L9/A4cNdRtfQ2fLxNLnfYEatO+OqclNmVQdBg=="/>
         </item>
         <item>
             <title>1.16</title>
@@ -294,7 +346,7 @@
 <li>Загрузки снова сохраняют субтитры у сериалов, для серий которых сервер не указывает языки субтитров: теперь сохраняются все дорожки субтитров из потока — и внутри видео, и в папке Subtitles.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.16_b35.dmg" length="71247370" type="application/octet-stream" sparkle:edSignature="7qMVIKE3LjJX5Pv4tuTOIZKmi7N4ZfbmEOPDY099+4YQP8p2VX6hk/6tfMW8NlvV51iSbwpkGq/eyavBkWreCA=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.16_b35.dmg" length="71247370" type="application/octet-stream" sparkle:edSignature="7qMVIKE3LjJX5Pv4tuTOIZKmi7N4ZfbmEOPDY099+4YQP8p2VX6hk/6tfMW8NlvV51iSbwpkGq/eyavBkWreCA=="/>
         </item>
         <item>
             <title>1.15</title>
@@ -334,7 +386,7 @@
 <li>Серии, у которых на сервере нет названия, больше не отображаются пустыми в окне загрузки сезона, и их файлы тоже получают название: оно берётся из TMDB, как на странице сериала, а если его нет — «Серия N».</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.15_b33.dmg" length="71247288" type="application/octet-stream" sparkle:edSignature="9GKJfSkbX850DVI8e4Ixnh/P1wRXtda4RVK0sc8V4e4t+8ZVb4q8pOhltO/2mHdiZ19KTOmV35U81xiVVNlCAQ=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.15_b33.dmg" length="71247288" type="application/octet-stream" sparkle:edSignature="9GKJfSkbX850DVI8e4Ixnh/P1wRXtda4RVK0sc8V4e4t+8ZVb4q8pOhltO/2mHdiZ19KTOmV35U81xiVVNlCAQ=="/>
         </item>
         <item>
             <title>1.14</title>
@@ -378,7 +430,7 @@
 <li>Поиск по идентификатору больше не зависает на неотвечающем сервере: запрос уходит на все серверы сразу, и побеждает самый быстрый ответ.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.14_b29.dmg" length="71189469" type="application/octet-stream" sparkle:edSignature="28sk0J3dCGSWhCTw76j7yJ/GlfVcOp5EbToregH74gfpWcSsoTNuRHlj5bdwq0UVmX26CI6qWTxk7StBZaeIDg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.14_b29.dmg" length="71189469" type="application/octet-stream" sparkle:edSignature="28sk0J3dCGSWhCTw76j7yJ/GlfVcOp5EbToregH74gfpWcSsoTNuRHlj5bdwq0UVmX26CI6qWTxk7StBZaeIDg=="/>
         </item>
         <item>
             <title>1.13</title>
@@ -414,7 +466,7 @@
 <li>Встроенный плеер: прокрутка страницы трекпадом над видео больше не перематывает его и не меняет громкость.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.13_b25.dmg" length="67048885" type="application/octet-stream" sparkle:edSignature="PQFO91GnEYDevvRSqjsLYvud6uQJy0pnJ+gyLBmtP/gofD3dqzKZti4umV0t+Fnp94EE5eNmkH+otAczEj96Aw=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.13_b25.dmg" length="67048885" type="application/octet-stream" sparkle:edSignature="PQFO91GnEYDevvRSqjsLYvud6uQJy0pnJ+gyLBmtP/gofD3dqzKZti4umV0t+Fnp94EE5eNmkH+otAczEj96Aw=="/>
         </item>
         <item>
             <title>1.12</title>
@@ -460,7 +512,7 @@
 <li>Cinemac теперь отправляет анонимную статистику использования, например какие функции используются. В ней никогда нет названий, идентификаторов фильмов или данных аккаунта.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.12_b22.dmg" length="67042362" type="application/octet-stream" sparkle:edSignature="yMjWCn7SNm2ApqVIR19aWi9A0kW3qqximgEyu5S9uxuy7eHiz6bgqw1tabIidyNlXUsN27+fE2R2I0VyavVqCg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.12_b22.dmg" length="67042362" type="application/octet-stream" sparkle:edSignature="yMjWCn7SNm2ApqVIR19aWi9A0kW3qqximgEyu5S9uxuy7eHiz6bgqw1tabIidyNlXUsN27+fE2R2I0VyavVqCg=="/>
         </item>
         <item>
             <title>1.11</title>
@@ -496,7 +548,7 @@
 <li>Сервер доступен только на этом Mac и требует секретный ключ, который можно в любой момент сменить; в детском режиме он полностью недоступен.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.11_b21.dmg" length="66878193" type="application/octet-stream" sparkle:edSignature="7Q/EBYc8jG9cDI4cLqz0hYC1epbjTNcNYG2GcReuM2qde9+kdzHMcM7hHc5fmaawynJGMwajJc4fhdzLnsg7CQ=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.11_b21.dmg" length="66878193" type="application/octet-stream" sparkle:edSignature="7Q/EBYc8jG9cDI4cLqz0hYC1epbjTNcNYG2GcReuM2qde9+kdzHMcM7hHc5fmaawynJGMwajJc4fhdzLnsg7CQ=="/>
         </item>
         <item>
             <title>1.10</title>
@@ -538,7 +590,7 @@
 <li>Клавиатура в плеере: повторные нажатия ←/→ складываются (+10 с, +20 с, +30 с) со счётчиком на экране, зажатый пробел ускоряет до 2×, Home/End — в начало или к титрам, [ и ] — по главам, R повторяет последние 10 секунд с субтитрами, а ? показывает все сочетания клавиш.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.10_b20.dmg" length="66007549" type="application/octet-stream" sparkle:edSignature="XRhtaw+VhnF445R2xWHfXcQLex1nGLoaFRl3PMIrKh0PQT9SZXwkIK0j0JwbgRKqecm6PFU4Guy/S5hMDvbjBw=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.10_b20.dmg" length="66007549" type="application/octet-stream" sparkle:edSignature="XRhtaw+VhnF445R2xWHfXcQLex1nGLoaFRl3PMIrKh0PQT9SZXwkIK0j0JwbgRKqecm6PFU4Guy/S5hMDvbjBw=="/>
         </item>
         <item>
             <title>1.09</title>
@@ -580,7 +632,7 @@
 <li>В управлении устройством снова видны списки серверов и типов потока, каждое изменение сохраняется отдельно; если сохранить не удалось, переключатель возвращается назад и об этом сообщается.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.09_b19.dmg" length="65677966" type="application/octet-stream" sparkle:edSignature="ls88inVJaUNwdrVAd3y8yR/gIfom55IwdWBDhQqIv6AHWAYHgXot7svT/FjeU0b5vAL20QJRNPjwagoUCJAPDQ=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.09_b19.dmg" length="65677966" type="application/octet-stream" sparkle:edSignature="ls88inVJaUNwdrVAd3y8yR/gIfom55IwdWBDhQqIv6AHWAYHgXot7svT/FjeU0b5vAL20QJRNPjwagoUCJAPDQ=="/>
         </item>
         <item>
             <title>1.08</title>
@@ -640,7 +692,7 @@
 <li>Если библиотеку загрузок не удалось открыть, новые загрузки отклоняются с пояснением, а не встают в очередь, чтобы пропасть при выходе; уже скачанные файлы остаются доступными.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.08_b18.dmg" length="65663684" type="application/octet-stream" sparkle:edSignature="/kFySsdQEIFB1kqS56JNwWwQ4qvgW8RnqAmLwf1NYvQVmM13Lr35+HX2PwYoRbSc/MxtZU0YxdN8hCAgORqkDQ=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.08_b18.dmg" length="65663684" type="application/octet-stream" sparkle:edSignature="/kFySsdQEIFB1kqS56JNwWwQ4qvgW8RnqAmLwf1NYvQVmM13Lr35+HX2PwYoRbSc/MxtZU0YxdN8hCAgORqkDQ=="/>
         </item>
         <item>
             <title>1.07</title>
@@ -666,7 +718,7 @@
 <li>Отметка «просмотрено» теперь отражает то, что действительно сохранил сервер. Раньше ответ на эту запись не проверялся: отклонённая запись показывала сообщение об успехе, а отметка исчезала при следующей загрузке. Теперь неудачная запись честно сообщает об ошибке.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.07_b17.dmg" length="65570532" type="application/octet-stream" sparkle:edSignature="/xLYWw++13HkC6+MfWMF8Sy+TGhdL1vmc3CRjn/YwljF+nV1XUFvBYuzl9WgcqZ6Y3csm0+BlAxmcrRBvDw8Dw=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.07_b17.dmg" length="65570532" type="application/octet-stream" sparkle:edSignature="/xLYWw++13HkC6+MfWMF8Sy+TGhdL1vmc3CRjn/YwljF+nV1XUFvBYuzl9WgcqZ6Y3csm0+BlAxmcrRBvDw8Dw=="/>
         </item>
         <item>
             <title>1.06</title>
@@ -698,7 +750,7 @@
 <li>Уголок «просмотрено» обновляется сразу и везде. Отметка из меню, со страницы фильма или досмотренный в плеере фильм меняет уголок на всех карточках на экране в тот же момент, а не после устаревания кэша списков.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.06_b16.dmg" length="65554421" type="application/octet-stream" sparkle:edSignature="mnoInHRGCkhWt/N/smxUIpIQpl2xxrANY0bYApVXkGM7l9rfiqgXE7EW2WWhMLVfCYoiYA9lwDC5TbLPt8QNCQ=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.06_b16.dmg" length="65554421" type="application/octet-stream" sparkle:edSignature="mnoInHRGCkhWt/N/smxUIpIQpl2xxrANY0bYApVXkGM7l9rfiqgXE7EW2WWhMLVfCYoiYA9lwDC5TbLPt8QNCQ=="/>
         </item>
         <item>
             <title>1.05</title>
@@ -740,7 +792,7 @@
 <li>При запуске больше не мелькает ошибка «Не удалось загрузить». Каждый холодный старт на секунду показывал экран ошибки с кнопкой «Повторить», прежде чем появлялся каталог: первый запрос отменялся во время настройки окна. Теперь запуск проходит без сбоев.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.05_b15.dmg" length="65568163" type="application/octet-stream" sparkle:edSignature="fn/cJUONjZg8pX35hSZhn+kYliQQ8D9WZBjkjm8NkaoRjctFpoOZzxeyHrI1gWPBIXWG7vQrKA0g30zOwM3KCg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.05_b15.dmg" length="65568163" type="application/octet-stream" sparkle:edSignature="fn/cJUONjZg8pX35hSZhn+kYliQQ8D9WZBjkjm8NkaoRjctFpoOZzxeyHrI1gWPBIXWG7vQrKA0g30zOwM3KCg=="/>
         </item>
         <item>
             <title>1.04</title>
@@ -774,7 +826,7 @@
 <li>Сессия переживает перезапуск. Cinemac больше не просит авторизовать устройство при каждом запуске и никогда не спрашивает пароль от Mac: то, что осталось от старой версии в связке ключей, подхватывается молча при первом запуске, а дальше всё хранится в собственном хранилище приложения.</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.04_b13.dmg" length="65529758" type="application/octet-stream" sparkle:edSignature="qod02epCYEvZTbjN2hFfaZYxURXISUoHDYjWju5hvt2oP2ER+DXFxHLR5jHbtx23gwAhHlh8AKXB5gEuxPdrAw=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.04_b13.dmg" length="65529758" type="application/octet-stream" sparkle:edSignature="qod02epCYEvZTbjN2hFfaZYxURXISUoHDYjWju5hvt2oP2ER+DXFxHLR5jHbtx23gwAhHlh8AKXB5gEuxPdrAw=="/>
         </item>
         <item>
             <title>1.03</title>
@@ -808,7 +860,7 @@
 <li>Установка обновления больше не спрашивает пароль от Mac. Сессия теперь хранится в собственном хранилище Cinemac, а не в связке ключей входа; уже выполненный вход переносится сам при первом запуске этой версии (macOS может спросить пароль последний раз именно в этот момент).</li>
 </ul>
             ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.03_b12.dmg" length="65530319" type="application/octet-stream" sparkle:edSignature="hWYSHomCTwLMjy+mzMwdMYZSMsU2HxNTdN8qB6gWKe9+O7r3tb3swQBtHh8d9T/7kenfEgRtJHc6arwTGX03Cg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.03_b12.dmg" length="65530319" type="application/octet-stream" sparkle:edSignature="hWYSHomCTwLMjy+mzMwdMYZSMsU2HxNTdN8qB6gWKe9+O7r3tb3swQBtHh8d9T/7kenfEgRtJHc6arwTGX03Cg=="/>
         </item>
         <item>
             <title>1.02</title>
@@ -828,7 +880,7 @@
 <li>Posters in a grid stay level: every card reserves the same caption height, so a title that wraps no longer pushes its poster up. Each title keeps two lines; a title without a translation may use all four.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.02_b11.dmg" length="65512131" type="application/octet-stream" sparkle:edSignature="eluUXY50KfJRhG0YL6GmUCuEQJkCEFBDsyCj1lZPmfPFU9ie/dFEZ7pjAh1FAEvM6f3LiO59AvzYNW8zyTvOBQ=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.02_b11.dmg" length="65512131" type="application/octet-stream" sparkle:edSignature="eluUXY50KfJRhG0YL6GmUCuEQJkCEFBDsyCj1lZPmfPFU9ie/dFEZ7pjAh1FAEvM6f3LiO59AvzYNW8zyTvOBQ=="/>
         </item>
         <item>
             <title>1.01</title>
@@ -864,7 +916,7 @@
 <li>Proxy and DNS bypass stay mutually exclusive even while the Network pane is not on screen.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.23-b63/cm_v1.01_b10.dmg" length="65511235" type="application/octet-stream" sparkle:edSignature="VuVZl9m65Q/o/tVIUbFDn2SaWENdgef6j8DrsE39HZfjZLyG9HSr9ylytqrIUrmt7QU5c3stAQvCOwhbGyvXBg=="/>
+            <enclosure url="https://github.com/kinopubus/bug-free-broccoli/releases/download/v1.24-b65/cm_v1.01_b10.dmg" length="65511235" type="application/octet-stream" sparkle:edSignature="VuVZl9m65Q/o/tVIUbFDn2SaWENdgef6j8DrsE39HZfjZLyG9HSr9ylytqrIUrmt7QU5c3stAQvCOwhbGyvXBg=="/>
         </item>
     </channel>
 </rss>
